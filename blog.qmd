@@ -1,0 +1,9 @@
+---
+title: "Qi's Blog"
+listing:
+  contents: Qblog
+  sort: "date desc"
+  type: default
+  categories: true
+page-layout: full
+---

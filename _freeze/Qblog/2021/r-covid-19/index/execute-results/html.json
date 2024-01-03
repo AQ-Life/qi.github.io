@@ -1,0 +1,16 @@
+{
+  "hash": "2c87abf131d5eba430bf0f41fab9e039",
+  "result": {
+    "markdown": "---\ntitle: \"R绘制COVID-19新增病例趋势图\"\ndate: \"2021-11-15\"\ntags:\n- R\n- Tidyverse\n- ggplot2\ncategories:\n- R\n- Tidyverse\n- ggplot2\n---\n\n\n\nCOVID-19 的病例数据来源于[COVID-19 (coronavirus) by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data)，并通过 OWID data 绘制一张新冠肺炎新增病例的趋势图。\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrm(list = ls())\noptions(digits = 4)\n\nlibrary(readxl)\ncovid <- read.csv(\"owid-covid-data.csv\")\n```\n:::\n\n\n为了得到每个国家对应的中文名称，还需要导入“国家和地区代码.xlsx”文件。\n\n\n::: {.cell}\n\n```{.r .cell-code}\ncountry <- read_excel(\"国家和地区代码.xlsx\",\n                     col_names=TRUE)\n```\n:::\n\n\n选取 Brazil 作为分析对象，对数据做一些简单的处理和 mapping\n\n\n::: {.cell}\n\n```{.r .cell-code}\ncovid1 <- subset(covid, \n                 subset = (iso_code==\"BRA\"))\n\ncovid2 <- transform(covid1, \n                    peo_vac=people_vaccinated/10000, \n                    peo_fvac=people_fully_vaccinated/10000,\n                    ana_new=new_cases,\n                    ana_dea=new_deaths,\n                    low=0\n                    )\n\ncountry1 <- subset(country, \n                   subset = (X6!=\"NA\"), \n                   select = c(X2,X3,X6))\n\nlibrary(dplyr)\nanadata1 <- left_join(covid2,\n                      country1,\n                      by=c(\"iso_code\"=\"X6\"))\n```\n:::\n\n\n定义一个移动平均数的函数，得到移动平均值\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmav <- function(a,n=3){\nstats::filter(a,rep(1/n,n),sides = 1)\n}\nanadata2 <- transform(anadata1,\n                      mean_new=mav(ana_new,7),\n                      mean_dea=mav(ana_dea,7))\n```\n:::\n\n\n利用 ggplot2 绘图\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\ngtitle <- paste(anadata2$X2,\"_\",anadata2$X3,sep='')[1]\np <- ggplot(anadata2,aes(x=as.Date(date))) + \n  geom_col(aes(y=ana_new,fill=\"g_col\")) + \n  geom_line(aes(y=mean_new,color=\"g_line\"),size=1) +\n  ggtitle(gtitle) +\n  labs(x=NULL,y=NULL) +\n  scale_x_date(date_label=\"%y/%m/%d\",\n               date_breaks = \"3 month\",\n               minor_breaks = \"1 month\") +\n  scale_fill_manual(breaks = c(\"g_col\"), \n                    values = c(\"#cad5e5\"), \n                    label = c(\"New Case\")) + \n  scale_color_manual(breaks = c(\"g_line\"),\n                     values = c(\"blue\"), \n                     label = c(\"Monving Average\")) +\n  theme(plot.title =element_text(hjust = 0.5, vjust = 0.5), \n      legend.position = \"bottom\", \n      legend.title = element_blank(), \n      legend.background = element_blank()) \n\np + theme(panel.background=element_rect(fill='transparent', \n                                      color='gray'),\n        legend.key=element_rect(fill='transparent', \n                                color='transparent'))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n最后展示一下输出的plot，如上图所示。\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
