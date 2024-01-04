@@ -16,6 +16,9 @@ website:
         text: Reference
       - href: about.qmd
         text: About
+    right: 
+      - icon: github
+        href: https://github.com/AQ-Life
 
 format:
   html:

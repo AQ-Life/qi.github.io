@@ -11,9 +11,7 @@ categories:
 - shiny
 ---
 
-
-Shiny package 是在R中进行数据分析可视化非常著名的一个包，我们就采用这个包来展示他的一些功能。
-数据来源和前期数据处理的解释，请参考上一篇文章 [R绘制COVID-19新增病例趋势图](https://aqlife.netlify.app/post/r/r-covid-19/r-covid-19/) ，这里直接放上前半部分的程序。
+Shiny package 是在R中进行数据分析可视化非常著名的一个包，我们就采用这个包来展示他的一些功能。 数据来源和前期数据处理的解释，请参考上一篇文章 [R绘制COVID-19新增病例趋势图](https://aqlife.netlify.app/post/r/r-covid-19/r-covid-19/) ，这里直接放上前半部分的程序。
 
 ```{r message=FALSE, warning=FALSE}
 #清空工作环境
@@ -146,9 +144,8 @@ server <- function(input, output){
 }
 ```
 
-最后就是 run script，并进行成果展示。
+最后就是 run script。
 
 ```{r message=FALSE, warning=FALSE}
-shinyApp(ui = ui, server = server)
+#shinyApp(ui = ui, server = server)
 ```
-
