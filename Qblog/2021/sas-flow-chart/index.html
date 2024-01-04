@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-12-13">
+
+<title>Qi - SAS绘制流程图</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Qi</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../reference.html" rel="" target="">
+ <span class="menu-text">Reference</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">SAS绘制流程图</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">SAS</div>
+    <div class="quarto-category">FlowChart</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 13, 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/流程图.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">流程图</figcaption>
+</figure>
+</div>
+<p>CSR中的第一张表格往往会是一张流程图，那么使用SAS如何绘制流程图，我们一起来看看。</p>
+<p>SAS ANNOTATION FUNCTIONS:</p>
+<pre class="sas"><code>%annomac;</code></pre>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Macro to use</th>
+<th style="text-align: left;">Tasks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">%ARROW(x1, y1, x2, y2, color, line, size, angle, style);</td>
+<td style="text-align: left;">Draw an arrow</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">%RECT(x 1,y 1,x 2,y 2, color, line, size);</td>
+<td style="text-align: left;">Draw a rectangle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">%LABEL(x, y, text, color, angle, rotate, size, style, position);</td>
+<td style="text-align: left;">Draw text</td>
+</tr>
+</tbody>
+</table>
+<p>%ARROW(x1, y1, x2, y2, color, line, size, angle, style); Function: Draws an arrow from (X1, Y1) to (X2,Y2). Parameter line: specifies the length of the sides of the arrowhead <img src="images/line.png" class="img-fluid" alt="line"></p>
+<p>size: specifies the width of the line <img src="images/line_thick.png" class="img-fluid" alt="line_thick"></p>
+<p>angle: specifies the angle of the tip of the arrowhead</p>
+<p>style:specifies the type of arrowhead <img src="images/line_type.png" class="img-fluid" alt="line_type"></p>
+<p>%RECT(x 1,y 1,x 2,y 2, color, line, size); Function: Draws a rectangle with diagonal corners at two specified points. Parameters</p>
+<p>line: specifies the rectangle’s line type</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/arrow.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">arrow</figcaption>
+</figure>
+</div>
+<p>%LABEL(x, y, text, color, angle, rotate, size, style, position); Function: Places a text label at the specified coordinates Parameters angle: specifies the angle of the text string with respect to the horizontal rotate: specifies the rotation angle of each character in the text string size: specifies the size of the text string style: specifies the text font position: specifies the placement and alignment</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/position.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">position</figcaption>
+</figure>
+</div>
+<pre class="sas"><code>%macro add_element(x=,y=,width=,height=,text=);
+ %rect(&amp;x,&amp;y,&amp;x+&amp;width,&amp;y+&amp;height,black,1,1);
+ %let i=1;
+ %do %until (%qscan(&amp;text,&amp;i,'|')=);
+ %label(&amp;x+1,&amp;y+&amp;height-2*&amp;i,"%qscan(&amp;text,&amp;i,'|')",BLACK,0,0,1.5,SimSun,6);
+ %let i=%eval(&amp;i+1);
+ %end;
+%mend add_element; 
+
+
+data final;
+ length function color style $8. text $60.;
+ retain xsys '3' ysys '3' hsys '3' when 'a' line 1 function 'label';
+
+ %add_element(x=10,y=83,width=20,height=15,text=%str( 5mg/kg | 筛选入组&amp;scrn1.人 | 筛选失败&amp;scrnf1.人 | 随机&amp;rand1.人 | 治疗&amp;treat1.人 | 退出研究&amp;disc1.人 ));
+ %add_element(x=50,y=92,width=20,height=8,text=%str( 试验组（N=&amp;n1.）| 治疗&amp;t1.人 | 退出研究&amp;d1.人 ));
+ %add_element(x=50,y=83,width=20,height=8,text=%str( 安慰剂组（N=&amp;n2.）| 治疗&amp;t2.人 | 退出研究&amp;d2.人 ));
+
+ %add_element(x=10,y=63,width=20,height=15,text=%str( 15mg/kg | 筛选入组&amp;scrn2.人 | 筛选失败&amp;scrnf2.人 | 随机&amp;rand2.人 | 治疗&amp;treat2.人 | 退出研究&amp;disc2.人 ));
+ %add_element(x=50,y=72,width=20,height=8,text=%str( 试验组（N=&amp;n3.）| 治疗&amp;t3.人 | 退出研究&amp;d3.人 ));
+ %add_element(x=50,y=63,width=20,height=8,text=%str( 安慰剂组（N=&amp;n4.）| 治疗&amp;t4.人 | 退出研究&amp;d4.人 ));
+
+ %add_element(x=10,y=44,width=20,height=15,text=%str( 30 mg/kg | 筛选入组&amp;scrn3.人 | 筛选失败&amp;scrnf3.人 | 随机&amp;rand3.人 | 治疗&amp;treat3.人 | 退出研究&amp;disc3.人 ));
+ %add_element(x=50,y=53,width=20,height=8,text=%str( 试验组（N=&amp;n5.）| 治疗&amp;t5.人 | 退出研究&amp;d5.人 ));
+ %add_element(x=50,y=44,width=20,height=8,text=%str( 安慰剂组（N=&amp;n6.）| 治疗&amp;t6.人 | 退出研究&amp;d6.人 ));
+
+ %add_element(x=10,y=25,width=20,height=15,text=%str( 50mg/kg | 筛选入组&amp;scrn4.人 | 筛选失败&amp;scrnf4.人 | 随机&amp;rand4.人 | 治疗&amp;treat4.人 | 退出研究&amp;disc4.人 ));
+ %add_element(x=50,y=34,width=20,height=8,text=%str( 试验组（N=&amp;n7.）| 治疗&amp;t7.人 | 退出研究&amp;d7.人 ));
+ %add_element(x=50,y=25,width=20,height=8,text=%str( 安慰剂组（N=&amp;n8.）| 治疗&amp;t8.人 | 退出研究&amp;d8.人 ));
+
+ /*** CONNECTING LINES... ***/
+ %arrow(20,83,20,78,BLACK,1,0.1,90,filled);
+ %arrow(20,63,20,59,BLACK,1,0.1,90,filled);
+ %arrow(20,44,20,40,BLACK,1,0.1,90,filled);
+
+ %arrow(30,90.5,50,96,BLACK,1,0.1,90,filled);
+ %arrow(30,90.5,50,87,BLACK,1,0.1,90,filled);
+
+ %arrow(30,70.5,50,76,BLACK,1,0.1,90,filled);
+ %arrow(30,70.5,50,67,BLACK,1,0.1,90,filled);
+
+ %arrow(30,51.5,50,57,BLACK,1,0.1,90,filled);
+ %arrow(30,51.5,50,48,BLACK,1,0.1,90,filled);
+
+ %arrow(30,32.5,50,38,BLACK,1,0.1,90,filled);
+ %arrow(30,32.5,50,29,BLACK,1,0.1,90,filled);
+
+run;
+
+/******
+retain xsys '3' ysys '3' hsys '3’;
+specify graphics output area
+******/
+
+/* displays Annotate graphics */
+proc gslide annotate=final;
+quit;</code></pre>
+<p>最后看一下我们输出的流程图。 <img src="images/flowchart.png" class="img-fluid" alt="flowchart"></p>
+<p>从上面的代码中可以看出，我们需要标记清楚每一个点的坐标，但是这样无疑是很复杂的，所以SAS虽然可以实现绘制流程图，但是并不建议临床项目当中使用SAS来绘制。</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
