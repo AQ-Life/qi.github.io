@@ -3,6 +3,7 @@
     "listing": "/blog.html",
     "items": [
       "/Qblog/2023/sas-sql-compare/index.html",
+      "/Qblog/2023/r-gmt-plot/index.html",
       "/Qblog/2023/sas-heart/index.html",
       "/Qblog/2023/sas-geometric-mean.html",
       "/Qblog/2023/r-ae-summary-by-soc-and-pt/index.html",
@@ -13,8 +14,7 @@
       "/Qblog/2021/sas-sql-2/index.html",
       "/Qblog/2021/ae-domain.html",
       "/Qblog/2021/sas-sql-1.html",
-      "/Qblog/2021/data-step-tranpose.html",
-      "/Qblog/2023/r-gmt-plot/index.html"
+      "/Qblog/2021/data-step-tranpose.html"
     ]
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "R 输出GMT plot"
-date: "`r Sys.Date()`"
+date: "2023-05-25"
 tags:
 - R
 - Tidyverse
@@ -18,8 +18,6 @@ knitr::opts_chunk$set(
 	warning = FALSE
 )
 ```
-
-
 
 ```{r, message=FALSE, warning=FALSE}
 library(plyr)
@@ -61,8 +59,6 @@ mean1 <- adis1 %>%
 
 final <- rbind.fill(adis1, mean1)
 ```
-
-
 
 ```{r echo=TRUE, fig.show='asis'}
 ggplot(final) +

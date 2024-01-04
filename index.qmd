@@ -2,10 +2,4 @@
 title: "Qi"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+这是Qi的主页。有时候喜欢折腾下代码，也就有了这个blog。
