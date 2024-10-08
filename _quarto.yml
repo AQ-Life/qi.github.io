@@ -12,6 +12,10 @@ website:
         text: Home
       - href: blog.qmd
         text: Blog
+      - href: https://aq-life.github.io/Clinical-Programming/
+        text: Clinical Programming
+      - href: https://aq-life.github.io/R-Programming/
+        text: R Programming
       - href: reference.qmd
         text: Reference
       - href: about.qmd
@@ -22,8 +26,9 @@ website:
 
 format:
   html:
-    theme: litera
-    css: styles.css
+    theme: 
+      light: custom.scss
+      dark: [custom.scss, themedark.scss]
     toc: true
 
 editor: visual

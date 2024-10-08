@@ -9,10 +9,12 @@ title: "Going forwrad, towards your destination."
 -   **SAS**
 -   **R**
 
-## R shiny app: 
+## R shiny app:
 
 [AQ_TFLs_Generation](https://aqlife.shinyapps.io/aq_tfls_generation/)
 
-## Published papers: 
+## Published papers:
 
 [Generation of Geometric Mean Titer Plot in Immunogenicity from SAS and R](https://www.lexjansen.com/pharmasug-cn/2023/CC/Pharmasug-China-2023-CC115.pdf)
+
+[Auto-annotation CRF per SDTM-MSG 2.0 by R](https://pharmasug.com.cn/resources/2024/paper/Pharmasug-China-2024-PO10007_Final_Paper.pdf)

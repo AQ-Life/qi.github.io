@@ -1,0 +1,44 @@
+---
+categories:
+- SAS
+- GTL
+date: '2024-01-12'
+title: SAS绘制森林图（forest plot）添加色条
+---
+
+森林图中有plot和label两部分，如下图所示，可以认为第4列是plot，其他列都是label，第1列是文本描述我们可以用format写入数据集，第2，3，5列中的数值结果是在绘图之前就已经计算完成。那么绘制森林图的方法很多，我习惯使用的方法是，将这些lable都通过annotation注释到GTL中，而GTL语句仅绘制第4列的图。
+
+![](images/f_forest_gmt_en2.png)
+
+``` sas
+xaxisopts=(offsetmin=0.4 offsetmax=0.2 display=(TICKS TICKVALUES)  type=log logopts=( viewmin=0.1 viewmax= 10
+                base=10 tickintervalstyle=logexpand minorticks=true tickvalueformat=xfmt.) tickvalueattrs=(size=12pt weight=bold family='Arial Unicode MS'));
+```
+
+xaxisopts选项中的offsetmin和offsetmax是控制X轴首尾预留的空间，留下这些空间就是为了使用annotation写入这些label。
+
+为了增加图形的美观性，会为其增加色条，看起来像是部分行增加背景色。图形的绘制实际是多个图层的叠加，我们可以想想众多绘图元素怎样实现这种效果。比如使用参考线，绘制一条有厚度的带透明度的参考线，不就是背景色。
+
+``` sas
+referenceline y=ref/ datatransparency=0.8 lineattrs=(thickness=20 color=grey);
+```
+
+![](images/图片1.png)
+
+既然目的是为了增加这个矩形的色条，drawrectangle添加注释直接绘制一个带透明度的矩形也是一样的效果。
+
+``` sas
+drawrectangle x = 50 y = 78 width = 100 height = 4/ anchor=center display=(fill) fillattrs=(color=grey) transparency=0.75;
+```
+
+![](images/图片2.png)
+
+走到这里既然绘制矩形也是一样的效果，那使用barchart添加柱状图的图层应该也可以。
+
+``` sas
+barchart category=yord response=ref / name='bar' xaxis=X2 stat=mean orient=horizontal display=(FILL) datatransparency=0.6 groupdisplay=Cluster clusterwidth=1.0
+```
+
+![](images/图片3.png)
+
+这里随意挑选了几行绘制了barchart，但需要注意原先的图形只有第4列是通过GTL绘图语句实现，X轴从0.1到10，只占了整个画布的一部分，而我们添加barchart是希望为整一行添加色条，需要X轴铺满整个画布，所以需要使用X2轴，即xaxis=X2.
