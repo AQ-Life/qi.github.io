@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/reference.html</loc>
-    <lastmod>2024-01-04T02:30:25.025Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/sas-sql-compare/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.820Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/sas-geometric-mean.html</loc>
-    <lastmod>2024-01-04T03:04:56.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/r-ae-summary-by-soc-and-pt/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.815Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/shiny-package-covid-19-plot/index.html</loc>
-    <lastmod>2024-01-04T06:38:12.022Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-sql-1.html</loc>
-    <lastmod>2024-01-04T02:30:24.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/r-covid-19/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.440Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/ae-domain.html</loc>
-    <lastmod>2024-01-04T02:30:24.134Z</lastmod>
+    <loc>https://AQ-Life.github.io/qi.github.io/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.827Z</lastmod>
   </url>
   <url>
     <loc>https://AQ-Life.github.io/qi.github.io/blog.html</loc>
-    <lastmod>2024-01-04T02:30:25.025Z</lastmod>
+    <lastmod>2026-05-08T08:49:37.827Z</lastmod>
   </url>
   <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/about.html</loc>
-    <lastmod>2024-10-10T07:18:22.873Z</lastmod>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2026/presentation.html</loc>
+    <lastmod>2026-05-08T08:49:37.800Z</lastmod>
   </url>
   <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/index.html</loc>
-    <lastmod>2024-10-10T06:59:24.411Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/data-step-tranpose.html</loc>
-    <lastmod>2024-01-04T02:30:24.135Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-flow-chart/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-sql-2/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/vs-domain.html</loc>
-    <lastmod>2024-01-04T02:30:24.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/r-gmt-plot/index.html</loc>
-    <lastmod>2024-01-04T03:05:42.197Z</lastmod>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/r-ae-summary-by-soc-and-pt/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.785Z</lastmod>
   </url>
   <url>
     <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/sas-heart/index.html</loc>
-    <lastmod>2024-01-04T02:30:24.819Z</lastmod>
+    <lastmod>2026-05-08T08:49:37.788Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-sql-2/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.692Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-flow-chart/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.690Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/data-step-tranpose.html</loc>
+    <lastmod>2026-05-08T08:49:37.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/sas-sql-1.html</loc>
+    <lastmod>2026-05-08T08:49:37.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/reference.html</loc>
+    <lastmod>2026-05-08T08:49:37.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/vs-domain.html</loc>
+    <lastmod>2026-05-08T08:49:37.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/r-covid-19/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/shiny-package-covid-19-plot/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.692Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2021/ae-domain.html</loc>
+    <lastmod>2026-05-08T08:49:37.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/sas-sql-compare/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/r-gmt-plot/index.html</loc>
+    <lastmod>2026-05-08T08:49:37.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2023/sas-geometric-mean.html</loc>
+    <lastmod>2026-05-08T08:49:37.786Z</lastmod>
   </url>
   <url>
     <loc>https://AQ-Life.github.io/qi.github.io/Qblog/2024/forestplot_colorarea.html</loc>
-    <lastmod>2024-01-12T00:56:34.530Z</lastmod>
+    <lastmod>2026-05-08T08:49:37.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AQ-Life.github.io/qi.github.io/about.html</loc>
+    <lastmod>2026-05-08T08:49:37.827Z</lastmod>
   </url>
 </urlset>
