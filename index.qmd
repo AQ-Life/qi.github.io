@@ -2,4 +2,37 @@
 title: "Qi"
 ---
 
-这是Qi的主页。有时候喜欢折腾下代码，也就有了这个blog。
+------------------------------------------------------------------------
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ma+Shan+Zheng&amp;size=45&amp;duration=4000&amp;pause=2000&amp;color=000000&amp;left=true&amp;vCenter=true&amp;random=false&amp;width=450&amp;lines=Hello%2C+my+little+cutey.;%E4%BD%A0%E5%A5%BD%E5%91%80%EF%BC%8C%E6%88%91%E7%9A%84%E5%B0%8F%E5%8F%AF%E7%88%B1%E3%80%82" alt="Typing SVG"/></a>
+
+## 我
+
+现居住于湖北省武汉市，有时候喜欢折腾下代码，所以有了这个blog，目前从事生物制药行业的临床编程工作，主要使用的编程语言：
+
+-   **SAS**
+-   **R**
+
+## 工作经历
+
+<img src="https://github.com/AQ-Life/AQ-Life/assets/133300267/72699a26-6e13-46f9-91ae-a4802152d8a5" align="right" width="88"/>
+
+-   [SinoCellTech (神州细胞)](http://www.sinocelltech.com/)   📌 2019-06 —— Now
+
+    -   工作岗位：Clinical Programming Team Lead
+
+<img src="https://github.com/AQ-Life/AQ-Life/assets/133300267/31945186-0815-40be-9f7b-49f7b0066f07" align="right" width="88"/>
+
+-   [Tigermed (泰格医药)](https://www.tigermedgrp.com/zh/homepage)   📌 2017.06 —— 2019-06
+
+    -   工作岗位：Clinical Programmer
+
+## R shiny app:
+
+[AQ_TFLs_Generation](https://aqlife.shinyapps.io/aq_tfls_generation/)
+
+## Published papers:
+
+[Generation of Geometric Mean Titer Plot in Immunogenicity from SAS and R](https://www.lexjansen.com/pharmasug-cn/2023/CC/Pharmasug-China-2023-CC115.pdf)
+
+[Auto-annotation CRF per SDTM-MSG 2.0 by R](https://pharmasug.com.cn/resources/2024/paper/Pharmasug-China-2024-PO10007_Final_Paper.pdf)

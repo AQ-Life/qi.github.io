@@ -88,42 +88,49 @@
     "href": "blog.html",
     "title": "Qi’s Blog",
     "section": "",
-    "text": "SAS绘制森林图（forest plot）添加色条\n\n\n\n\n\n\nSAS\n\n\nGTL\n\n\n\n\n\n\n\n\n\nJan 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSAS 比较两数据集之间的差异\n\n\n\n\n\n\nSAS\n\n\nSAS Advance\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nR 输出GMT plot\n\n\n\n\n\n\nR\n\n\nTidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSAS 绘制动态爱心\n\n\n\n\n\n\nSAS\n\n\n\n\n\n\n\n\n\nMay 12, 2023\n\n\n阿Q\n\n\n\n\n\n\n\n\n\n\n\n\nSAS计算几何平均数（Geometric Mean）\n\n\n\n\n\n\nSAS\n\n\nSAS Advance\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nR输出AE summary by SOC and PT\n\n\n\n\n\n\nR\n\n\nTidyverse\n\n\nr2rtf\n\n\n\n\n\n\n\n\n\nMar 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSAS绘制流程图\n\n\n\n\n\n\nSAS\n\n\nFlowChart\n\n\n\n\n\n\n\n\n\nDec 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nShiny package 绘制 COVID-19 Plot\n\n\n\n\n\n\nR\n\n\nTidyverse\n\n\nshiny\n\n\n\n\n\n\n\n\n\nNov 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nVS Domain\n\n\n\n\n\n\nCDISC\n\n\nSDTM\n\n\n\n\n\n\n\n\n\nNov 16, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nR绘制COVID-19新增病例趋势图\n\n\n\n\n\n\nR\n\n\nTidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\nNov 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSAS SQL（二）：横向合并的逻辑\n\n\n\n\n\n\nSAS\n\n\nSAS Advance\n\n\nSAS SQL\n\n\n\n\n\n\n\n\n\nNov 12, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nAE Domain\n\n\n\n\n\n\nCDISC\n\n\nSDTM\n\n\n\n\n\n\n\n\n\nNov 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSAS SQL（一）：语法顺序与执行顺序\n\n\n\n\n\n\nSAS\n\n\nSAS Advance\n\n\nSAS SQL\n\n\n\n\n\n\n\n\n\nNov 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nData Step 转置\n\n\n\n\n\n\nSAS\n\n\nSAS Base\n\n\n\n\n\n\n\n\n\nNov 9, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Quarto制作临床研究汇报的presentation\n\n\n\nR\n\nGTL\n\n\n\n\n\n\n\n\n\nMay 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSAS绘制森林图（forest plot）添加色条\n\n\n\nSAS\n\nGTL\n\n\n\n\n\n\n\n\n\nJan 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSAS 比较两数据集之间的差异\n\n\n\nSAS\n\nSAS Advance\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nR 输出GMT plot\n\n\n\nR\n\nTidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSAS 绘制动态爱心\n\n\n\nSAS\n\n\n\n\n\n\n\n\n\nMay 12, 2023\n\n\n阿Q\n\n\n\n\n\n\n\n\n\n\n\n\nSAS计算几何平均数（Geometric Mean）\n\n\n\nSAS\n\nSAS Advance\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nR输出AE summary by SOC and PT\n\n\n\nR\n\nTidyverse\n\nr2rtf\n\n\n\n\n\n\n\n\n\nMar 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSAS绘制流程图\n\n\n\nSAS\n\nFlowChart\n\n\n\n\n\n\n\n\n\nDec 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nShiny package 绘制 COVID-19 Plot\n\n\n\nR\n\nTidyverse\n\nshiny\n\n\n\n\n\n\n\n\n\nNov 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nVS Domain\n\n\n\nCDISC\n\nSDTM\n\n\n\n\n\n\n\n\n\nNov 16, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nR绘制COVID-19新增病例趋势图\n\n\n\nR\n\nTidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nNov 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSAS SQL（二）：横向合并的逻辑\n\n\n\nSAS\n\nSAS Advance\n\nSAS SQL\n\n\n\n\n\n\n\n\n\nNov 12, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nAE Domain\n\n\n\nCDISC\n\nSDTM\n\n\n\n\n\n\n\n\n\nNov 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSAS SQL（一）：语法顺序与执行顺序\n\n\n\nSAS\n\nSAS Advance\n\nSAS SQL\n\n\n\n\n\n\n\n\n\nNov 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nData Step 转置\n\n\n\nSAS\n\nSAS Base\n\n\n\n\n\n\n\n\n\nNov 9, 2021\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Going forwrad, towards your destination.",
     "section": "",
-    "text": "从事生物制药行业的临床编程工作，主要使用的编程语言：\n\nSAS\nR"
+    "text": "老家在湖北黄冈（黄冈密卷的发源地），也许是身边的环境让我养成了一个严肃（I人，但内心渴望自己是个幽默的人）的性格。喜欢打羽毛球，喜欢猎奇（哈哈，主要是脑子一热，喜欢一些新鲜的东西，但是感情还是一如既往的）。业余时间主要是看看视频（不限电视，电影，网络段子，纪录片，最后这一个有时候看视频看多有了罪恶感，赶紧看看纪录片给自己一个心理安慰，毕竟纪录片偏向学习嘛😁），散步（到处闲逛，最近在寻找一些喜欢的音乐，但是我发现之前没有什么积累，导致本就五音不全的我好难找到自己喜欢的），听书（主要是上下班路上太久了，喜欢马伯庸的书）。"
   },
   {
-    "objectID": "about.html#阿q",
-    "href": "about.html#阿q",
+    "objectID": "about.html#我是谁",
+    "href": "about.html#我是谁",
     "title": "Going forwrad, towards your destination.",
     "section": "",
-    "text": "从事生物制药行业的临床编程工作，主要使用的编程语言：\n\nSAS\nR"
+    "text": "老家在湖北黄冈（黄冈密卷的发源地），也许是身边的环境让我养成了一个严肃（I人，但内心渴望自己是个幽默的人）的性格。喜欢打羽毛球，喜欢猎奇（哈哈，主要是脑子一热，喜欢一些新鲜的东西，但是感情还是一如既往的）。业余时间主要是看看视频（不限电视，电影，网络段子，纪录片，最后这一个有时候看视频看多有了罪恶感，赶紧看看纪录片给自己一个心理安慰，毕竟纪录片偏向学习嘛😁），散步（到处闲逛，最近在寻找一些喜欢的音乐，但是我发现之前没有什么积累，导致本就五音不全的我好难找到自己喜欢的），听书（主要是上下班路上太久了，喜欢马伯庸的书）。"
   },
   {
-    "objectID": "about.html#r-shiny-app",
-    "href": "about.html#r-shiny-app",
-    "title": "Going forwrad, towards your destination.",
+    "objectID": "index.html#我",
+    "href": "index.html#我",
+    "title": "Qi",
+    "section": "我",
+    "text": "我\n现居住于湖北省武汉市，有时候喜欢折腾下代码，所以有了这个blog，目前从事生物制药行业的临床编程工作，主要使用的编程语言：\n\nSAS\nR"
+  },
+  {
+    "objectID": "index.html#工作经历",
+    "href": "index.html#工作经历",
+    "title": "Qi",
+    "section": "工作经历",
+    "text": "工作经历\n\n\nSinoCellTech (神州细胞)   📌 2019-06 —— Now\n\n工作岗位：Clinical Programming Team Lead\n\n\n\n\nTigermed (泰格医药)   📌 2017.06 —— 2019-06\n\n工作岗位：Clinical Programmer"
+  },
+  {
+    "objectID": "index.html#r-shiny-app",
+    "href": "index.html#r-shiny-app",
+    "title": "Qi",
     "section": "R shiny app:",
     "text": "R shiny app:\nAQ_TFLs_Generation"
   },
   {
-    "objectID": "about.html#published-papers",
-    "href": "about.html#published-papers",
-    "title": "Going forwrad, towards your destination.",
+    "objectID": "index.html#published-papers",
+    "href": "index.html#published-papers",
+    "title": "Qi",
     "section": "Published papers:",
     "text": "Published papers:\nGeneration of Geometric Mean Titer Plot in Immunogenicity from SAS and R\nAuto-annotation CRF per SDTM-MSG 2.0 by R"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Qi",
-    "section": "",
-    "text": "这是Qi的主页。有时候喜欢折腾下代码，也就有了这个blog。"
   },
   {
     "objectID": "Qblog/2021/data-step-tranpose.html",
@@ -201,5 +208,82 @@
     "title": "SAS绘制森林图（forest plot）添加色条",
     "section": "",
     "text": "森林图中有plot和label两部分，如下图所示，可以认为第4列是plot，其他列都是label，第1列是文本描述我们可以用format写入数据集，第2，3，5列中的数值结果是在绘图之前就已经计算完成。那么绘制森林图的方法很多，我习惯使用的方法是，将这些lable都通过annotation注释到GTL中，而GTL语句仅绘制第4列的图。\n\nxaxisopts=(offsetmin=0.4 offsetmax=0.2 display=(TICKS TICKVALUES)  type=log logopts=( viewmin=0.1 viewmax= 10\n                base=10 tickintervalstyle=logexpand minorticks=true tickvalueformat=xfmt.) tickvalueattrs=(size=12pt weight=bold family='Arial Unicode MS'));\nxaxisopts选项中的offsetmin和offsetmax是控制X轴首尾预留的空间，留下这些空间就是为了使用annotation写入这些label。\n为了增加图形的美观性，会为其增加色条，看起来像是部分行增加背景色。图形的绘制实际是多个图层的叠加，我们可以想想众多绘图元素怎样实现这种效果。比如使用参考线，绘制一条有厚度的带透明度的参考线，不就是背景色。\nreferenceline y=ref/ datatransparency=0.8 lineattrs=(thickness=20 color=grey);\n\n既然目的是为了增加这个矩形的色条，drawrectangle添加注释直接绘制一个带透明度的矩形也是一样的效果。\ndrawrectangle x = 50 y = 78 width = 100 height = 4/ anchor=center display=(fill) fillattrs=(color=grey) transparency=0.75;\n\n走到这里既然绘制矩形也是一样的效果，那使用barchart添加柱状图的图层应该也可以。\nbarchart category=yord response=ref / name='bar' xaxis=X2 stat=mean orient=horizontal display=(FILL) datatransparency=0.6 groupdisplay=Cluster clusterwidth=1.0\n\n这里随意挑选了几行绘制了barchart，但需要注意原先的图形只有第4列是通过GTL绘图语句实现，X轴从0.1到10，只占了整个画布的一部分，而我们添加barchart是希望为整一行添加色条，需要X轴铺满整个画布，所以需要使用X2轴，即xaxis=X2."
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html",
+    "href": "Qblog/2026/presentation.html",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "",
+    "text": "Clinical Programmer经常会为统计，医学输出一些TLGs，特别是Graph，用于制作PPT，方便给老板汇报。如果我们可以直接用Quarto通过R代码制作Presentation肯定是个不错的尝试。 Quarto支持多种演示文稿的格式，其中reveal.js是目前最强大的演示文稿的格式，可以以HTML幻灯片展示。相比传统PPT，支持R Markdown语法，代码高亮展示，实时交互，主题控制，占用内存较小等等优势。 下面利用测试数据，模拟给老板汇报，来做一个presentation."
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#标题页",
+    "href": "Qblog/2026/presentation.html#标题页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "标题页",
+    "text": "标题页\n---\ntitle: \"Study A01 汇报\"\nsubtitle: \"Confidential \"\ndate: \"2026.05.01\"\nauthor: \"Clinical Programming Group\"\nformat:\n  revealjs:\n    slide-number: true\n    chalkboard: \n      buttons: false\n    preview-links: auto\n    title-slide-attributes:\n      data-background-image: images/quarto.png  \n      data-background-size: \"20%\"        \n      data-background-position: \"top left\"  \n    scrollable: true\n    css: custom.css\neditor: visual\n---\n\n设置presentation的标题，副标题等等，图中左上角使用quarto的logo用来模拟企业自己的商标，标题，副标题的颜色属性是放到 custom.css 中设置的，这一点下文再给大家展示。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#目录页",
+    "href": "Qblog/2026/presentation.html#目录页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "目录页",
+    "text": "目录页\n## Study A01\n&lt;br/&gt;\n\n- [**受试者分布**]{style=\"color: blue;\"}\n- ASAS40疗效数据更新\n- 安全性\n 颜色，字体都可以通过style进行自定义。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#table表格",
+    "href": "Qblog/2026/presentation.html#table表格",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "Table表格",
+    "text": "Table表格\n## Study A01 -- 16周前退出情况\n\nlibrary(haven)\nlibrary(tidyverse)\nlibrary(rtables)\nlibrary(tern)\nlibrary(htmltools)\n\nadsl &lt;- read_sas(\"data/adsl.sas7bdat\") %&gt;% \n  filter(ITTFL == \"Y\") %&gt;% \n  mutate(TRTP = TRT01P, TRTPN = TRT01PN) %&gt;% \n  mutate(randflag = TRUE %&gt;% with_label(\"Subjects Randomized\"),\n\n         flag3 = (DCS01RS != \"\") %&gt;% with_label(\"Discontinued from Loading Period\"),\n         DCS01RS = as.factor(ifelse(DCS01RS == \"\", NA, DCS01RS)),\n         TRTP = forcats::fct_reorder(TRTP, TRTPN)\n  ) \n \n\ntfl_disp &lt;- basic_table(\n            show_colcounts = TRUE, # 展示big N\n            inset = 2) %&gt;% \n  split_cols_by(\"TRTP\") %&gt;%  #设置列的子分组\n  add_overall_col(\"Total\") %&gt;%\n  count_patients_with_flags(\n    \"USUBJID\",\n    flag_variables = c(\"randflag\"),\n    denom = \"N_col\",\n    table_names = \"count1\"\n  ) %&gt;% \n  count_patients_with_flags(\n    \"USUBJID\",\n    flag_variables = grep(\"^flag\", names(adsl), value = TRUE),\n    var_labels = \"Number of Patients\",\n    show_labels = \"visible\",\n    denom = \"N_col\",\n  ) %&gt;% \n  analyze_vars(vars = c(\"DCS01RS\"),\n               .stats = \"count_fraction\",\n               var_labels = c(\"Reason for Treatment Discontinuation\"),\n               ) %&gt;% \n  build_table(adsl, alt_counts_df= adsl)\n\nas_html(tfl_disp) %&gt;% \n  tagAppendAttributes(style = \"font-size: 0.7em; wdth: 100%;\",\n                      .cssSelector = \"table\") %&gt;% \n  tagList()\n\n&lt;br/br/&gt; [**A01-XX**]{style=\"color: red;\"} 治疗组，4(2.8%)例受试者（S215004, S217008, S221004, S222003）16周前退出研究。\n上面的代码就是输出常规的受试者分布表的R代码，rtables和tern package对于输出TLGs非常好用。可以看到上图输出的表格下面有左右滚动条，对于试验前期探索阶段的项目可能有多个组别，这里相比PPT可以很好的适应多列的情况，而不用调整字体。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#试验设计页",
+    "href": "Qblog/2026/presentation.html#试验设计页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "试验设计页",
+    "text": "试验设计页\n## Study A01 Design\n\n::: {style=\"height: 150px;\"}\n:::\n\n[**Part A**]{style=\"color: blue;\"}\n\n::: {style=\"height: 220px;\"}\n:::\n\n[**Part B**]{style=\"color: blue;\"}\n\n![](images/parta.png){.absolute top=\"100\" left=\"70\" width=\"800\" height=\"300\"}\n\n![](images/partb.png){.absolute top=\"400\" left=\"90\" width=\"750\" height=\"250\"}\n 这一页仅是将方案中的试验设计截图放到presentation中，给领导一个印象。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#前期准备",
+    "href": "Qblog/2026/presentation.html#前期准备",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "前期准备",
+    "text": "前期准备\n\n制作presentation之前需要准备好临床研究所需的数据，最好是ADaM数据集，方便后续直接调用生成presentation中图表。\nPresentation中需要用到的图片（公司logo，来自Protocol的截图等等）。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#table表格页",
+    "href": "Qblog/2026/presentation.html#table表格页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "Table表格页",
+    "text": "Table表格页\n## Study A01 -- 16周前退出情况\n\nlibrary(haven)\nlibrary(tidyverse)\nlibrary(rtables)\nlibrary(tern)\nlibrary(htmltools)\n\nadsl &lt;- read_sas(\"data/adsl.sas7bdat\") %&gt;% \n  filter(ITTFL == \"Y\") %&gt;% \n  mutate(TRTP = TRT01P, TRTPN = TRT01PN) %&gt;% \n  mutate(randflag = TRUE %&gt;% with_label(\"Subjects Randomized\"),\n\n         flag3 = (DCS01RS != \"\") %&gt;% with_label(\"Discontinued from Loading Period\"),\n         DCS01RS = as.factor(ifelse(DCS01RS == \"\", NA, DCS01RS)),\n         TRTP = forcats::fct_reorder(TRTP, TRTPN)\n  ) \n \n\ntfl_disp &lt;- basic_table(\n            show_colcounts = TRUE, # 展示big N\n            inset = 2) %&gt;% \n  split_cols_by(\"TRTP\") %&gt;%  #设置列的子分组\n  add_overall_col(\"Total\") %&gt;%\n  count_patients_with_flags(\n    \"USUBJID\",\n    flag_variables = c(\"randflag\"),\n    denom = \"N_col\",\n    table_names = \"count1\"\n  ) %&gt;% \n  count_patients_with_flags(\n    \"USUBJID\",\n    flag_variables = grep(\"^flag\", names(adsl), value = TRUE),\n    var_labels = \"Number of Patients\",\n    show_labels = \"visible\",\n    denom = \"N_col\",\n  ) %&gt;% \n  analyze_vars(vars = c(\"DCS01RS\"),\n               .stats = \"count_fraction\",\n               var_labels = c(\"Reason for Treatment Discontinuation\"),\n               ) %&gt;% \n  build_table(adsl, alt_counts_df= adsl)\n\nas_html(tfl_disp) %&gt;% \n  tagAppendAttributes(style = \"font-size: 0.7em; wdth: 100%;\",\n                      .cssSelector = \"table\") %&gt;% \n  tagList()\n\n&lt;br/br/&gt; [**A01-XX**]{style=\"color: red;\"} 治疗组，4(2.8%)例受试者（S215004, S217008, S221004, S222003）16周前退出研究。\n上面的代码就是输出常规的受试者分布表的R代码，rtables和tern package对于输出TLGs非常好用。可以看到上图输出的表格下面有左右滚动条，对于试验前期探索阶段的项目可能有多个组别，这里相比PPT可以很好的适应多列的情况，而不用调整字体。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#疗效指标绘图页",
+    "href": "Qblog/2026/presentation.html#疗效指标绘图页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "疗效指标绘图页",
+    "text": "疗效指标绘图页\n## Study A01 -- ASAS40\n\nadsl &lt;- read_sas(\"data/adsl.sas7bdat\") %&gt;% \n  filter(ITTFL == \"Y\") %&gt;% \n  mutate(TRT01P = forcats::fct_reorder(TRT01P, TRT01PN, min)\n  ) \n \nadqs &lt;- read_sas(\"data/adqs.sas7bdat\") %&gt;% \n  filter(ITTFL == \"Y\", PARAMCD == \"ASAS40\", DTYPE == \"\", ANL01FL == \"Y\") %&gt;% \n  mutate(AVISIT = forcats::fct_reorder(AVISIT, AVISITN, min),\n         TRT01P = forcats::fct_reorder(TRT01P, TRT01PN, min),\n         AVAL = AVAL*100,\n         )\n\ng_lineplot(adqs, adsl, variables = control_lineplot_vars(x = \"AVISITN\",\n                                                         y = \"AVAL\",\n                                                         y_unit = NA,\n                                                         group_var = \"TRT01P\"),\n           ylim = c(0, 60),\n           interval = NULL,\n           col = c(\"grey\",\"red\", \"blue\", \"darkgreen\",\"brown\"),\n           mid_point_size = 3,\n           linetype = c(\"dashed\",\"solid\",\"solid\",\"solid\",\"solid\"),\n           y_lab = \"ASAS40 Response (%)\",\n           y_lab_add_paramcd = FALSE,\n           x_lab = \"Weeks\",\n           xticks = c(0,1,2,3,4,6,8,9,12,16,24,32,40,48),\n           title = NULL,\n           y_lab_add_unit = FALSE,\n           subtitle_add_paramcd = FALSE,\n           subtitle_add_unit = FALSE) \n\nA01-XX暂未体现疗效上的优势 &lt;br/&gt;安慰剂组16周Cross后，有显著提升\n 这里偷懒直接使用tern package的g_lineplot绘制，没有过多的再去修饰，美观性不足，也是为了给大家一个展示。同理后面还可以进行大量的亚组分析，进行指标的进一步挖掘。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#安全性指标绘图页",
+    "href": "Qblog/2026/presentation.html#安全性指标绘图页",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "安全性指标绘图页",
+    "text": "安全性指标绘图页\n## Study A01 -- Safety -- Liver Function\n\nadsl &lt;- read_sas(\"data/adsl.sas7bdat\") %&gt;% \n  filter(ITTFL == \"Y\") %&gt;% \n  mutate(TRT01P = forcats::fct_reorder(TRT01P, TRT01PN, min)\n  ) %&gt;% \n  group_by(TRT01PN, TRT01P) %&gt;% \n  summarise(bign = n(), .groups = \"drop\")\n \nadlb &lt;- read_sas(\"data/adlb.sas7bdat\") %&gt;% \n  filter(SAFFL == \"Y\", APERIOD == 1, ABLFL != \"Y\", PARAMCD %in% c(\"ALT\", \"BILI\")) %&gt;% \n  mutate(TRT01P = forcats::fct_reorder(TRT01P, TRT01PN, min),\n         ) %&gt;% \n  group_by(USUBJID, PARAMCD) %&gt;% \n  summarise(maxaval = max(AVAL),\n            TRT01P = first(TRT01P),\n            TRT01PN = first(TRT01PN),\n            ANRHI = first(ANRHI),\n            .groups = \"drop\") %&gt;% \n  mutate(aval = maxaval/ANRHI)\n\nana1 &lt;- left_join(adlb, adsl, by = c(\"TRT01PN\", \"TRT01P\")) %&gt;% \n  pivot_wider(id_cols = c(USUBJID, TRT01PN, TRT01P, bign),\n              names_from = PARAMCD,\n              values_from = aval) %&gt;% \n  mutate(TRT01P = paste0(TRT01P, \"(N=\", bign,\")\"))\n\nggplot(ana1, aes(ALT, BILI, color = TRT01P, shape = TRT01P)) +\n  geom_point(size = 4) +\n  geom_vline(aes(xintercept = 3)) +\n  geom_hline(aes(yintercept = 2)) +\n  annotate(\"text\",x = 0.3, y = 8, label = \"Hyperbilirubinemia\", size=5, fontface = 2) +\n  annotate(\"text\",x = 10, y = 8, label = \"Hy's Law Range\", size=5, fontface = 2) +\n  annotate(\"text\",x = 10, y = 0.05, label = \"Temple's Corollary Range\", size=5, fontface = 2) +\n  scale_y_continuous(trans = \"log10\", breaks = c(0.01, 0.1, 1, 2, 10), limits = c(0.01, 10), expand = c(0.005, 0.005)) +\n  scale_x_continuous(trans = \"log10\", breaks = c(0.1, 1, 3, 10, 100), limits = c(0.1, 100), expand = c(0.005, 0.005)) +\n  labs(x = \"Maximum Post-baseline Alanine Aminotransferase (ALT) / ULN\", \n       y = \"Maximum Post-baseline Total Bilirubin / ULN\") +\n  scale_color_manual(values = c(\"black\", \"darkgreen\", \"blue\", \"brown\", \"red\")) +\n  scale_shape_manual(values = c(\"circle open\", \"triangle\", \"square\", \"diamond\", \"circle\")) +\n  theme_classic() +\n  theme(legend.position = c(0.15, 0.2),\n        legend.title = element_blank(),\n        legend.text = element_text(size = 13, face = \"bold\"),\n        axis.title = element_text(size = 14, face = \"bold\"),\n        axis.ticks.length = unit(2, \"mm\"),\n        axis.text.x = element_text(size=12, margin = margin(t = 2, unit = \"mm\")),\n        axis.text.y = element_text(size=12, margin = margin(r = 2, unit = \"mm\"))) +\n  annotation_logticks(sides = \"bl\", outside = TRUE) +\n  coord_cartesian(clip = \"off\")\n\n安慰剂组：S213008, 发生在Loading Period, 基线ALT, AST指标异常有临床意义，有病史：肝功能异常\n 用ggplot2自定义更能满足各个企业自己的个性化要求，所以对此要求较高的，还是建议大家自己封装绘图函数。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#custom.css",
+    "href": "Qblog/2026/presentation.html#custom.css",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "custom.css",
+    "text": "custom.css\n\n.reveal, \n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: Arial, \"KaiTi\", \"楷体\", \"STKaiti\", serif !important;\n}\n\n\n#title-slide h1.title {\n  color: blue !important;\n  font-size: 2.5em !important; \n}\n\n.reveal h2 {\n  font-size: 1.8em !important; \n}\n\n.reveal {\n  font-size: 1.5em !important; \n}\n\n#title-slide p.subtitle,\n#title-slide .subtitle {\n  color: red !important;\n  font-size: 1.8em !important;\n  font-weight: bold !important;\n}\n\n#title-slide .quarto-title-author-name,\n#title-slide p.date,\n#title-slide .date {\n  font-weight: bold !important;\n  color: #333 !important; \n}\nQuarto 支持自定义css格式，比如这里英文使用Arial字体，中文使用楷体，标题页，内容页字体大小，颜色等等。当然还有背景，模板等等大家可以自己探索。"
+  },
+  {
+    "objectID": "Qblog/2026/presentation.html#写到最后",
+    "href": "Qblog/2026/presentation.html#写到最后",
+    "title": "Quarto制作临床研究汇报的presentation",
+    "section": "写到最后",
+    "text": "写到最后\n完整的presentation已经共享，大家可以浏览（需要梯子）：https://rpubs.com/AQ_LIFE/1430556\n如果需要Quarto完整代码，可以公众号回复：quarto_slides"
   }
 ]

@@ -2,19 +2,6 @@
 title: "Going forwrad, towards your destination."
 ---
 
-## 阿Q
+## 我是谁
 
-从事生物制药行业的临床编程工作，主要使用的编程语言：
-
--   **SAS**
--   **R**
-
-## R shiny app:
-
-[AQ_TFLs_Generation](https://aqlife.shinyapps.io/aq_tfls_generation/)
-
-## Published papers:
-
-[Generation of Geometric Mean Titer Plot in Immunogenicity from SAS and R](https://www.lexjansen.com/pharmasug-cn/2023/CC/Pharmasug-China-2023-CC115.pdf)
-
-[Auto-annotation CRF per SDTM-MSG 2.0 by R](https://pharmasug.com.cn/resources/2024/paper/Pharmasug-China-2024-PO10007_Final_Paper.pdf)
+老家在湖北黄冈（黄冈密卷的发源地），也许是身边的环境让我养成了一个严肃（I人，但内心渴望自己是个幽默的人）的性格。喜欢打羽毛球，喜欢猎奇（哈哈，主要是脑子一热，喜欢一些新鲜的东西，但是感情还是一如既往的）。业余时间主要是看看视频（不限电视，电影，网络段子，纪录片，最后这一个有时候看视频看多有了罪恶感，赶紧看看纪录片给自己一个心理安慰，毕竟纪录片偏向学习嘛😁），散步（到处闲逛，最近在寻找一些喜欢的音乐，但是我发现之前没有什么积累，导致本就五音不全的我好难找到自己喜欢的），听书（主要是上下班路上太久了，喜欢马伯庸的书）。
